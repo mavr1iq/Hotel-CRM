@@ -65,7 +65,7 @@
             height="250"
             class="center"
             referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyBDOIpCSV3O_mvFBLW2OzYSWM9mCZFvqVM&origin=Kyiv+Ukraine&destination=Tokyo+Japan&mode=walking"
+            src="${GOOGLE_API}"
             allowfullscreen>
         </iframe>
       </div>
@@ -90,7 +90,8 @@ export default {
         require('../assets/hotel1.jpg'),
         require('../assets/hotel2.jpg'),
         require('../assets/hotel3.jpeg')
-      ]
+      ],
+	  google: process.env.GOOGLE_API
     }
   },
   name: 'TheMain'
