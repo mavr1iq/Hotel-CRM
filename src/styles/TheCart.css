@@ -1,0 +1,34 @@
+table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+table th, table td {
+    text-align: center;
+}
+
+.check {
+    margin-top: 20px;
+    margin-right: 95px;
+    float: right;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.check:hover {
+    background-color: #b52c2a;
+}
+
+.cancel:hover {
+    color: #b52c2a;
+}

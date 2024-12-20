@@ -1,0 +1,26 @@
+.login-form {
+    margin: 20% 45%;
+    background: #d28743;
+    border: solid black;
+    font-size: 25px;
+    text-align: center;
+    padding: 0;
+}
+
+input[type="submit"] {
+    display: flex;
+    margin: 10px auto;
+    width: auto;
+    font-size: 15px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    background: #f3a157;
+    margin: 0;
+}

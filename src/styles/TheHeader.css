@@ -1,0 +1,48 @@
+header {
+    padding: 10px;
+    height: 80px;
+    width: 98%;
+    background: #e0b184;
+    border: solid black;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu-a {
+    width: auto;
+    display: inline-block;
+    color: white;
+    background: brown;
+    padding: 20px;
+    margin: 20px;
+    text-align: right;
+    float: right;
+    text-decoration: none;
+}
+
+.menu-a:hover {
+    background: dimgrey;
+    color: white;
+}
+
+button {
+    box-shadow: none;
+    border: none;
+}

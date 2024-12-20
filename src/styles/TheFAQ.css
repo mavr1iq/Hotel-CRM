@@ -1,0 +1,21 @@
+.FAQ-table {
+    margin-top: 6%;
+}
+
+.question {
+    display: table;
+    background: #a64e12;
+    padding: 5px;
+    margin: 30px 10px 0 20px;
+}
+
+.answer {
+    display: table;
+    background: #bb7737;
+    padding: 5px;
+    margin: 5px 10px 0 30px;
+}
+body {
+    background: #f3a157;
+    margin: 0;
+}
